@@ -1,6 +1,22 @@
 # Go 高性能 LRU/LRU-2 缓存库
 
-[![Go Version](https://img.shields.io/github/go-mod/go-version/golang/go)](https://golang.org/doc/go1.23)
+<p align="center">
+  <a href="/go.mod#L3" alt="go version">
+    <img src="https://img.shields.io/badge/go%20version-%3E=1.18-brightgreen?style=flat"/>
+  </a>
+  <a href="https://goreportcard.com/badge/github.com/orca-zhang/ecache" alt="goreport">
+    <img src="https://goreportcard.com/badge/github.com/orca-zhang/ecache">
+  </a>
+  <a href="https://orca-zhang.semaphoreci.com/projects/ecache" alt="buiding status">
+    <img src="https://orca-zhang.semaphoreci.com/badges/ecache.svg?style=shields">
+  </a>
+  <a href="https://codecov.io/gh/orca-zhang/ecache" alt="codecov">
+    <img src="https://codecov.io/gh/orca-zhang/ecache/branch/master/graph/badge.svg?token=F6LQbADKkq"/>
+  </a>
+  <a href="https://github.com/orca-zhang/ecache/blob/master/LICENSE" alt="license MIT">
+    <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat">
+  </a>
+</p>
 
 ## 项目简介
 
@@ -28,7 +44,7 @@
 go get github.com/7836246/lru
 ```
 
-确保你的 Go 版本在 `1.16` 或以上。
+确保你的 Go 版本在 `1.18` 或以上。
 
 ## 使用方法
 
